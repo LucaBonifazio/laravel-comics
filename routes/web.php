@@ -14,5 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('guest.layouts.base');
-})->name('base');
+    return view('guest.main');
+})->name('main');
