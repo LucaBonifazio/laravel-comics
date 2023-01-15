@@ -1,15 +1,18 @@
-.bg_container {
+// footer social
+.bg_container_social {
     position: relative;
     z-index: 10;
     height: 100px;
     background-color: rgb(61, 61, 61);
   }
+
   .footer_social {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  .btn {
+
+  .btn_sign_up {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,6 +35,7 @@
     padding: 1em;
     gap: 1em;
   }
+
   .follow_link {
     color: #0282f9;
     font-size: 15px;
@@ -50,8 +54,8 @@
       }
     }
   }
-
-.bg_container {
+// footer link
+.bg_container_link {
     background-image: url('/css/img/footer-bg.jpg');
     object-fit: contain;
     object-position: center;
@@ -72,12 +76,12 @@
     height: 100%;
   }
 
-  ul {
+  .list {
     margin-bottom: 1.8em;
     margin-right: 1.5em;
   }
 
-  a {
+  .list a {
     color: rgb(136, 136, 136);
     font-size: 12px;
     &:hover {
@@ -85,7 +89,7 @@
     }
   }
 
-  img {
+  .image_box img {
     width: 350px;
     height: 350px;
     object-fit: contain;
@@ -94,8 +98,8 @@
       transform: scale(1.1);
     }
   }
-
-  .bg_container {
+// footer icon
+  .bg_container_icon {
     background-color: #0282f9;
   }
   .navbar_down {
@@ -107,7 +111,7 @@
     padding: 1em;
   }
 
-  a {
+  .link_icon {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -121,7 +125,7 @@
     }
   }
 
-  img {
+  .icon_img {
     width: 50px;
     margin-right: 0.5em;
   }

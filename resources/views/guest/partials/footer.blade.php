@@ -1,28 +1,28 @@
-<div class="bg_container">
+<div class="bg_container_icon">
     <div class="navbar_down container">
-        <a href="#!">
-        <img src="/css/img/buy-comics-digital-comics.png" alt="icon" />
+        <a class="link_icon" href="#!">
+        <img class="icon_img" src="/css/img/buy-comics-digital-comics.png" alt="icon" />
         DIGITAL COMICS
         </a>
-        <a href="#!">
-        <img src="/css/img/buy-comics-merchandise.png" alt="icon" />
+        <a class="link_icon" href="#!">
+        <img class="icon_img" src="/css/img/buy-comics-merchandise.png" alt="icon" />
         DC MERCHANDISE
         </a>
-        <a href="#!">
-        <img src="/css/img/buy-comics-subscriptions.png" alt="icon" />
+        <a class="link_icon" href="#!">
+        <img class="icon_img" src="/css/img/buy-comics-subscriptions.png" alt="icon" />
         SUBSCRIPTION
         </a>
-        <a href="#!">
-        <img src="/css/img/buy-comics-shop-locator.png" alt="icon" />
+        <a class="link_icon" href="#!">
+        <img class="icon_img" src="/css/img/buy-comics-shop-locator.png" alt="icon" />
         COMIC SHOP LOCATOR
         </a>
-        <a href="#!">
-        <img src="/css/img/buy-dc-power-visa.svg" alt="icon" />
+        <a class="link_icon" href="#!">
+        <img class="icon_img" src="/css/img/buy-dc-power-visa.svg" alt="icon" />
         DC POWER VISA
         </a>
     </div>
 </div>
-<div class="bg_container">
+<div class="bg_container_link">
     <div class="link_container container">
         <div class="link_list_box">
         <h3>DC COMICS</h3>
@@ -118,9 +118,9 @@
         </div>
     </div>
 </div>
-<div class="bg_container">
+<div class="bg_container_social">
     <div class="footer_social container">
-      <div class="btn"><a>SIGN-UP NOW!</a></div>
+      <div class="btn btn_sign_up"><a>SIGN-UP NOW!</a></div>
         <div class="social_box">
             <div class="follow_link">FOLLOW US</div>
             <div class="social_icon">

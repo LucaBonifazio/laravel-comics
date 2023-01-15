@@ -5,12 +5,12 @@
   height: 100px;
 }
 
-img {
+.dc_logo {
   width: 70px;
   height: 70px;
   cursor: pointer;
 }
-img:hover {
+.dc_logo:hover {
   transform: scale(1.2);
   transform: rotate(-45deg);
   transition: transform 0.5s ease-in-out;
@@ -121,7 +121,7 @@ img:hover {
   transform: scale(1.1);
 }
 
-.bg_container {
+.bg_container_social {
   position: relative;
   z-index: 10;
   height: 100px;
@@ -134,7 +134,7 @@ img:hover {
   align-items: center;
 }
 
-.btn {
+.btn_sign_up {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -144,7 +144,7 @@ img:hover {
   color: white;
   cursor: pointer;
 }
-.btn:hover {
+.btn_sign_up:hover {
   transform: scale(1.2);
   background-color: rgb(206, 206, 206);
   color: black;
@@ -175,7 +175,7 @@ img:hover {
   transform: scale(1.2);
 }
 
-.bg_container {
+.bg_container_link {
   background-image: url("/css/img/footer-bg.jpg");
   -o-object-fit: contain;
      object-fit: contain;
@@ -200,20 +200,20 @@ img:hover {
   height: 100%;
 }
 
-ul {
+.list {
   margin-bottom: 1.8em;
   margin-right: 1.5em;
 }
 
-a {
+.list a {
   color: rgb(136, 136, 136);
   font-size: 12px;
 }
-a:hover {
+.list a:hover {
   color: white;
 }
 
-img {
+.image_box img {
   width: 350px;
   height: 350px;
   -o-object-fit: contain;
@@ -221,11 +221,11 @@ img {
   -o-object-position: center;
      object-position: center;
 }
-img:hover {
+.image_box img:hover {
   transform: scale(1.1);
 }
 
-.bg_container {
+.bg_container_icon {
   background-color: #0282f9;
 }
 
@@ -238,7 +238,7 @@ img:hover {
   padding: 1em;
 }
 
-a {
+.link_icon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -247,27 +247,12 @@ a {
   font-size: 0.7em;
   color: #fff;
 }
-a:hover {
+.link_icon:hover {
   transform: scale(1.1);
   transition: transform 0.2s ease-in-out;
 }
 
-img {
+.icon_img {
   width: 50px;
   margin-right: 0.5em;
-}
-
-.container {
-  display: flex;
-  max-width: 80%;
-  height: 100%;
-  margin: auto;
-}
-
-li {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
 }

@@ -5,46 +5,46 @@
     height: 100px;
   }
 
-  img {
-    width: 70px;
-    height: 70px;
+.dc_logo {
+width: 70px;
+height: 70px;
     cursor: pointer;
     &:hover {
-      transform: scale(1.2);
-      transform: rotate(-45deg);
-      transition: transform 0.5s ease-in-out;
+        transform: scale(1.2);
+        transform: rotate(-45deg);
+        transition: transform 0.5s ease-in-out;
     }
-  }
-  .navbar_list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 1rem;
-    height: 100%;
+}
+.navbar_list {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+gap: 1rem;
+height: 100%;
     ul {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100%;
-      color: rgb(0, 0, 0);
-      li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        color: rgb(0, 0, 0);
+        li{
         display: flex;
         justify-content: center;
         align-items: center;
         padding: 0 .3em;
         height: 100%;
         a{
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          height: 100%;
-          color: #000000;
-          &:hover {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            color: #000000;
+            &:hover {
             color: rgb(0, 157, 255);
             background-color: rgb(207, 235, 253);
-          }
+            }
         }
-      }
+        }
     }
-  }
+}

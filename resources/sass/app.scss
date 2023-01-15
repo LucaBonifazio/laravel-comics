@@ -3,18 +3,4 @@
 @use 'partials/_main.scss';
 @use 'partials/_footer.scss';
 
-.container {
-    display: flex;
-    max-width: 80%;
-    height: 100%;
-    margin: auto;
-}
-
-li {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-}
 
