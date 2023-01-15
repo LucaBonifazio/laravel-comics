@@ -139,6 +139,10 @@
   font-size: 1.2em;
 }
 
+.btn_load {
+    margin: auto;
+  }
+
 .card {
   text-align: center;
   padding: 0.1rem;

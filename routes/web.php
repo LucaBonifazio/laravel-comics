@@ -16,3 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('guest.main', ['comics' => config('comics')]);
 })->name('main');
+
+Route::get('/comic_info', function () {
+    return view('guest.comic_info', [
+        'comics' => config('comics')
+    ]);
+})->name('comic_info');
