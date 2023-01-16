@@ -2,6 +2,8 @@
 
 @section('content')
 <div class="bg_container">
+    <div class="slider_image">
+    </div>
     <div class="cards_box container">
         @foreach ($comics as $card)
         <div class="card">
@@ -13,4 +15,3 @@
     </div>
 </div>
 @endsection
-

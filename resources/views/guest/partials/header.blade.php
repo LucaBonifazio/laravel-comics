@@ -1,5 +1,5 @@
 <div class="navbar container">
-    <a href="#!"> <img class="dc_logo" src="css/img/dc-logo.png" alt="logo" /></a>
+    <a href="#!"> <img class="dc_logo" src="/css/img/dc-logo.png" alt="logo" /></a>
     <div class="navbar_list">
     <ul>
         <li><a href="#!">CHARACTERS</a></li>
